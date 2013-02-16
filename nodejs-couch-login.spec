@@ -1,14 +1,14 @@
 %define		pkg	couch-login
 Summary:	A module for doing logged-in requests to a couchdb server
 Name:		nodejs-%{pkg}
-Version:	0.1.5
+Version:	0.1.15
 Release:	1
 License:	MIT
 Group:		Development/Libraries
 URL:		https://github.com/isaacs/couch-login
 # download from https://github.com/isaacs/%{pkg}/tarball/%%{version}
 Source0:	http://registry.npmjs.org/%{pkg}/-/%{pkg}-%{version}.tgz
-# Source0-md5:	b7debec82b02773354ea2604b91a73b6
+# Source0-md5:	9e5c9b971b5caaa2c462921a89e7ec54
 BuildRequires:	rpmbuild(macros) >= 1.634
 BuildRequires:	sed >= 4.0
 Requires:	nodejs
